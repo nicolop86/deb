@@ -1,3 +1,3 @@
 #!/bin/bash
-OF=/home/nicolo/Scrivania/my-backup-$(date +%Y%m%d).tgz
-tar -cZf $OF /home/nicolo 
+OF=../my-backup-$(date +%Y%m%d).tar.gz
+tar czf $OF /home/nicolo/Scrivania/base_script 
