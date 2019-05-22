@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x 
 echo Please, enter your name and last name:
 
 function saluta {

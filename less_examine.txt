@@ -1,0 +1,5 @@
+  :e [_f_i_l_e]            Examine a new file.
+  :n                *  Examine the (_N-th) next file from the command line.
+  :p                *  Examine the (_N-th) previous file from the command line.
+  :x                *  Examine the first (or _N-th) file from the command line.
+  +_c_m_d                 Execute the less cmd each time a new file is examined.
