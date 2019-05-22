@@ -1,0 +1,6 @@
+totale 16
+drwxr-xr-x  2 nicolo nicolo 4096 mag 21 16:12 .
+drwxr-xr-x 17 nicolo nicolo 4096 mag 21 16:09 ..
+-rwxr-xr-x  1 nicolo nicolo   52 mag 21 16:11 dummy_backup.sh
+-rwxr-xr-x  1 nicolo nicolo   30 mag 21 16:09 hello.sh
+-rw-r--r--  1 nicolo nicolo    0 mag 21 16:12 list.txt
