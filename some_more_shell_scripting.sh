@@ -3,8 +3,12 @@ aggiungi_utente(){
 	echo "Nome utente: $1"
 	echo "Cognome utente: $2"
 	echo "Username: $3"
+	((ID++))	
+	return $ID  
 }
+ID=0
 aggiungi_utente Nick Politi nick
+echo "ID value $?"
 
 function_scope()
 {
