@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python
 from collections import deque
 queue = deque(["Eric", "John", "Michael"])
 queue.append("Terry")

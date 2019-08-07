@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python
 fruits=['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 fruits.count('apple')
 fruits.count('tangerine')
