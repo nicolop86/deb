@@ -1,10 +1,13 @@
 #!/usr/bin/python
-for line in open('prova'):
-    print(line, end='')
+numLines=0
+with open('prova') as fileRead:
+    for line in fileRead:
+        print(line, end='')
+        numLines += 1 
 print('###########')
 
 f = open('prova', 'a')
-f.write('DatoX	XXX\n')
+f.write('Dato{0} Altro saluto\n'.format(numLines+1))
 f.close()
 
 for line in open('prova'):
