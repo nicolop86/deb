@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def scope_test():
     def do_local():
         spam = "local spam"
@@ -20,5 +18,3 @@ def scope_test():
     do_global()
     print("After global assignment:", spam)
 
-scope_test()
-print("In global scope:", spam)
