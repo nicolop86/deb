@@ -2,8 +2,8 @@
 import os
 print(os.getcwd())
 os.system('date')
-print(dir(os))
-help(os)
+#print(dir(os))
+#help(os)
 
 from datetime import date
 now = date.today()
@@ -15,4 +15,8 @@ with urlopen('http://tycho.usno.navy.mil/cgi-bin/timer.pl') as response:
         line = line.decode('utf-8')
         if 'EST' in line or 'EDT' in line:
             print(line)
+
+from string import Template
+t = Template('${village}folk send $$110 to $cause.')
+print(t.substitute(village='Nottingham', cause='the ditch fund'))
 
