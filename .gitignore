@@ -1,2 +1,7 @@
 **.class
 **__pycache__
+**bin/
+**lib/
+**lib64
+**.cfg
+**share/
